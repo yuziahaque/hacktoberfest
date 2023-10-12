@@ -1,1 +1,14 @@
 write some code here that can be done by beginners (in any language)
+python code to find if a substring exist in a string or not
+  # Function to check if a substring exists in a string
+def is_substring_present(main_string, substring):
+    return substring in main_string
+
+# Example usage
+main_string = "Hello, World!"
+substring = "World"
+
+if is_substring_present(main_string, substring):
+    print(f"'{substring}' is a substring of '{main_string}'.")
+else:
+    print(f"'{substring}' is not a substring of '{main_string}'.")
